@@ -1,0 +1,75 @@
+@import url(../animacoes.css);
+
+main {
+    width: 85%;
+    height: 100%;
+    margin: auto;
+    margin-left: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 3;
+    color: white;
+    animation: fade 1s;
+    gap: 40px;
+    z-index: 10;
+}
+.left {
+    width: 50%;
+    height: 445px;
+    color: white;
+    display: flex;
+    align-items: center;
+    background-color: rgba(1, 1, 15, 0.863);
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.63);
+    border-radius: 8px;
+    
+}
+.left button{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    color: #fff;
+    font-size: 1.4rem;
+    cursor: pointer;
+    margin: 20px 80px 20px 30px;
+    background-color: rgba(255, 255, 255, 0);
+}
+.left p{
+    width: 80%;
+}
+
+.right{
+    min-width: 400px;
+    max-height: 440px;
+    text-align: center;
+    position: relative;
+    transition: all .2s;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.63);
+}
+.right .img{
+    width: 100%;
+    height: 100%;
+}
+.right .img img{
+    width: 100%;
+    height: 100%;
+}
+
+.left .slide-active{
+    background-color: white;
+}
+
+.left .circle-active{
+    background-color: rgba(255, 255, 255, 0.884);
+    color: rgb(31, 1, 31);
+    border: 1px solid black;
+}
+
+button:hover{
+    background-color: rgba(255, 255, 255, 0.144);
+    transition: all .3s;
+}
