@@ -21,6 +21,10 @@ main {
 .left h1, h2, p{
     margin: auto;
 }
+#texto{
+    height: 90px;
+}
+
 .left h1{
     margin-bottom: 150px;
     font-size: 1.3rem;
@@ -30,8 +34,9 @@ main {
 }
 
 .left button{
-    width: 15px;
-    height: 15px;
+    width: 20px;
+    height: 20px;
+    padding: 12px;
     border-radius: 50%;
     border: none;
     cursor: pointer;
@@ -40,14 +45,15 @@ main {
 }
 .right{
     width: 50%;
-    height: 100%;
+    height: 95%;
     text-align: center;
     position: relative;
+    transition: all .2s;
 }
 
 .right .img{
     position: absolute;
-    bottom: -1%;
+    bottom: -5%;
 }
 
 .left .slide-active{

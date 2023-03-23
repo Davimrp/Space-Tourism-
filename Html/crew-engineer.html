@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="../assets/icon.png">
   <link rel="stylesheet" href="../Css/imports/crew.css">
   <title>Space tourism website</title>
 </head>
@@ -22,26 +22,27 @@
     <main>
       <section class="left">
         <h1>02 MEET YOUR CREW</h1>
-        <h2>Flight Engineer</h2>
-        <h3>Anousheh Ansari</h3>
-        <p>Anousheh Ansari is an Iranian American engineer and co-founder of Prodea Systems. 
+        <h2 id="cargo">Flight Engineer</h2>
+        <h3 id="nome">Anousheh Ansari</h3>
+        <p id="texto">Anousheh Ansari is an Iranian American engineer and co-founder of Prodea Systems. 
           Ansari was the fourth self-funded space tourist, the first self-funded woman to 
           fly to the ISS, and the first Iranian in space.</p>
 
           <div class="box-slide">
-            <button class="slide-active"></button>
-            <button></button>
-            <button></button>
-            <button></button>
+            <button class="slide-active" id="um"></button>
+            <button id="dois"></button>
+            <button id="tres"></button>
+            <button id="quatro"></button>
           </div>
       </section>
 
       <section class="right">
         <div class="img">
-          <img src="../assets/crew/image-anousheh-ansari.png" alt="">
+          <img src="../assets/crew/image-anousheh-ansari.png" alt="anousheh-ansari" id="img">
         </div>
       </section>
     </main>
 
+    <script src="../JS/crew.js"></script>
 </body>
 </html>
