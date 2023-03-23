@@ -1,0 +1,55 @@
+@import url(../animacoes.css);
+
+main {
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 3;
+    color: white;
+    animation: fade 1s;
+}
+.left {
+    width: 40%;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.left h1, h2, p{
+    margin: auto;
+}
+.left h1{
+    margin-bottom: 150px;
+    font-size: 1.3rem;
+}
+.left h2, h3{
+    color: rgb(195, 204, 211);
+}
+
+.left button{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    margin: 30px 10px;
+    background-color: rgba(255, 255, 255, 0.212);
+}
+.right{
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    position: relative;
+}
+
+.right .img{
+    position: absolute;
+    bottom: -1%;
+}
+
+.left .slide-active{
+    background-color: white;
+}

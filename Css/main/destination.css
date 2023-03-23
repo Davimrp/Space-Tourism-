@@ -1,0 +1,69 @@
+@import url(../animacoes.css);
+
+main {
+    width: 70%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 3;
+    color: white;
+    animation: fade 1s;
+}
+.left {
+    width: 50%;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    /* background-color: rgba(26, 24, 24, 0.685); */
+    padding: 10px;
+}
+.left img{
+    animation: rotate-in-center 500s cubic-bezier(0.250, 0.460, 0.450, 0.940) infinite forwards;
+}
+.right{
+    width: 50%;
+    text-align: center;
+    margin-left: 10px;
+    background-image: linear-gradient(to top, rgba(26, 24, 24, 0.747), rgba(5, 4, 4, 0.952));
+    border-radius: 10px;
+    padding: 15px;
+
+}
+.right a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    margin: 0 10px;
+    font-size: 1.4rem;
+}
+.right a:hover{
+    color: rgb(158, 145, 130);
+
+}
+.right h2{
+    font-size: 5rem;
+}
+.right p{
+    width: 90%;
+    margin: 10px auto;
+    padding-bottom: 15px;
+}
+.bottom{
+    display: flex;
+    justify-content: space-around;
+    height: 60px;
+    align-items: center;
+}
+.bottom p{
+    font-size: .6rem;
+    padding: 0;
+    margin: 0 0 10px 17px;
+    width: 100px;
+    text-align: left;
+}
+.menu-active{
+    border-bottom: 3px solid white;
+}
+

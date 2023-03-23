@@ -1,0 +1,46 @@
+@import url(../animacoes.css);
+
+main {
+  width: 70%;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 3;
+
+}
+main .text {
+  width: 37%;
+  color: white;
+  opacity: 0;
+  animation: aparecerDepois 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+  animation-delay: 1s;
+}
+main button {
+  border-radius: 50%;
+  width: 180px;
+  height: 180px;
+  border: none;
+  margin-right: 50px;
+  background-color: rgba(255, 255, 255, 0.226);
+  cursor: pointer;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.123);
+  color: rgba(0, 0, 0, 0);
+  animation: scale-in-center .8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+main button:hover{
+  background-color: white;
+  color: black;
+  box-shadow: 1px 1px 10px rgba(202, 202, 202, 0.123);
+  transition: background .8s;
+  animation: aparece 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+main strong {
+  font-size: 6rem;
+  text-align: center;
+}
+main #space {
+  font-size: 4rem;
+  text-align: center;
+}

@@ -1,0 +1,110 @@
+@keyframes vaiVolta {
+    0% {
+        transform: scale(0.9) translate(0, 0);
+        transform-origin: 16% 50%;
+    }
+
+    100% {
+        transform: scale(1) translate(-20px, 15px);
+        transform-origin: left;
+    }
+}
+
+@keyframes vibrate-1 {
+    0% {
+        transform: translate(0);
+    }
+
+    20% {
+        transform: translate(-2px, 2px);
+    }
+
+    40% {
+        transform: translate(-2px, 0px);
+    }
+
+    60% {
+        transform: translate(0px, 2px);
+    }
+
+    80% {
+        transform: translate(0px, -2px);
+    }
+
+    100% {
+        transform: translate(0);
+    }
+}
+
+@keyframes kenburns-bottom {
+    0% {
+        transform: scale(1.25) translateY(0);
+        transform-origin: 50% 84%;
+    }
+
+    100% {
+        transform: scale(1) translateY(0px);
+        transform-origin: bottom;
+        
+    }
+}
+@keyframes aparece {
+    0% {
+        letter-spacing: -0.5em;
+    }
+
+    40% {
+        opacity: 0.6;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes fade{
+    0%{
+        opacity: 0;
+    }
+
+    100%{
+        opacity: 1;
+    }
+}
+
+@keyframes aparecerDepois{
+    
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes scale-in-center {
+    0% {
+            transform: scale(0);
+            opacity: 1;
+        }
+    
+        100% {
+            transform: scale(1);
+            opacity: 1;
+        }
+}
+
+@keyframes apareceDaDireita {
+    0%{
+        transform: translateX(400%);
+    }
+
+    100%{
+        transform: translateX(0);
+    }
+}
+@keyframes rotate-in-center {
+    0% {
+        transform: rotate(-360deg);
+    }
+
+    100% {
+        transform: rotate(0);
+    }
+}

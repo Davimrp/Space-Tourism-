@@ -1,0 +1,61 @@
+header {
+    display: flex;
+    width: 98%;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+    z-index: 3;
+}
+
+header .img {
+    width: 60px;
+    margin-left: 100px;
+    animation: scale-in-center 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    cursor: pointer;
+}
+
+header .img img {
+    width: 100%;
+}
+
+header nav {
+    width: 50%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    border-radius: 5px;
+    -webkit-backdrop-filter: blur(30px);
+    backdrop-filter: blur(30px);
+    animation: fade .5s;
+}
+
+nav::before {
+    content: "";
+    height: 1px;
+    width: 60%;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.226);
+    top: 50%;
+    right: 95%;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    padding: 20px 10px;
+    margin: 10px;
+}
+
+header a:hover {
+    padding-top: 21px;
+    color: rgb(192, 218, 241);
+    transition: .1s;
+}
+
+.selecionado {
+    padding-top: 21px;
+    color: rgb(192, 218, 241);
+    transition: .1s;
+}
