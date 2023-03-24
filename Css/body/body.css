@@ -22,3 +22,6 @@ body::before{
   z-index: 2;
 }
 
+#menu-mobile{
+  display: none;
+}

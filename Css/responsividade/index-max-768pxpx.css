@@ -1,0 +1,42 @@
+nav::before{
+    content: "";
+    height: 0px;
+    width: 0%;
+}
+
+header nav {
+    width: 60%;
+    height: 60px;
+    margin-right: 60px;
+}
+
+header .img {
+    width: 35px;
+    margin-left: 50px;
+}
+
+main {
+    width: 90%;
+    margin-top: -50px;
+}
+
+main .text {
+    width: 50%;
+}
+main .text h1{
+    font-size: 1.7rem;
+} 
+main strong{
+    font-size: 6rem;
+}
+main .text p{
+    font-size: 1rem;
+}
+main button {
+    background-color: #fffffff5;
+    color: black;
+    margin-right: 30px;
+    width: 150px;
+    height: 150px;
+
+}

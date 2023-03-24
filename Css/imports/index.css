@@ -1,0 +1,12 @@
+@import url(../body/body.css);
+@import url(../header/header.css);
+@import url(../main/main.css);
+@import url(fonts.css);
+
+
+@import url(../responsividade/index-max-1024px\ copy.css) screen and (max-width: 1024px);
+
+@import url(../responsividade/index-max-768pxpx.css) screen and (max-width: 768px);
+
+@import url(../responsividade/index-max-mobile.css) screen and (max-width: 600px);;
+
