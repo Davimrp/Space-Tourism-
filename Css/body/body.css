@@ -1,4 +1,6 @@
-
+html{
+  overflow: hidden;
+}
 
 body {
   width: 100%;
