@@ -1,7 +1,5 @@
 nav::before{
-    content: "";
-    height: 0px;
-    width: 0%;
+    display: none;
 }
 
 header nav {

@@ -4,3 +4,5 @@
 @import url(fonts.css);
 
 @import url(../responsividade/crew-max1024px.css) screen and (max-width: 1024px);
+
+@import url(../responsividade/crew-max-768px.css) screen and (max-width: 768px);
