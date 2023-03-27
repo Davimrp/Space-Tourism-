@@ -69,3 +69,4 @@ botoes.forEach((botao, index) => {
 });
 
 mostrarAstronauta(currentIndex);
+

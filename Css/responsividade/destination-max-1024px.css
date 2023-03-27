@@ -1,0 +1,39 @@
+
+header .img {
+    margin-left: 50px;
+}
+
+header nav {
+    width: 60%;
+}
+
+nav::before {
+    right: 95%;
+    width: 40%;
+}
+
+main {
+    width: 95%;
+    margin: auto;
+    gap: 50px;
+}
+
+.right a{
+    font-size: 1.1rem;
+}
+
+.right h2{
+    font-size: 4.5rem;
+}
+.right p{
+    font-size: 0.8rem;
+}
+
+.bottom p{
+    font-size: .6rem;
+}
+
+.bottom span{
+    font-size: .9rem;
+}
+

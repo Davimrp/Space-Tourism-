@@ -1,8 +1,5 @@
-
-nav::before{
-    content: "";
-    height: 0px;
-    width: 0%;
+body{
+    overflow: hidden;
 }
 
 header nav {
@@ -10,42 +7,21 @@ header nav {
     height: 60px;
     display: none;
 }
-
-main {
-    width: 90%;
-    flex-direction: column;
-    margin: auto;
-    margin-top: 30px;
-    justify-content: start;
-}
-
-main .text {
-    text-align: center;
-    width: 100%;
-    margin-bottom: 50px;
-}
-main .text h1{
-    font-size: 1.7rem;
-    font-weight: 300;
-
-} 
-main button {
-    background-color: #fffffff5;
-    color: black;
-    margin: auto;
-    width: 150px;
-    height: 150px;
-}
-
 #menu-mobile{
     display: block;
     position: static;
 }
 
+.fa-bars{  
+    color: white;
+    font-size: 2.5rem;
+    cursor: pointer;
+    margin-left: 100px;
+}
 i{  
     color: white;
     font-size: 2.5rem;
-    margin: 6px 60px 0 0;
+    margin: 6px 0px 0 100;
     cursor: pointer;
 }
 .fa-xmark{
@@ -54,12 +30,12 @@ i{
     margin-top: -50px;
     cursor: pointer;
 }
-
 .menu-mobile-active{
     background-color: rgba(19, 17, 17, 0.897);
     position: absolute;
     width: 100vw;
     top: -20px;
+    left: 0.1%;
     height: 560px;
     font-size: 1.5rem;
     display: none; 
@@ -69,3 +45,25 @@ i{
     animation: apareceDaDireita .2s ease-out;
 }
 
+main{
+    width: 100%;
+}
+
+.left{
+    margin-top: 0;
+}
+.left img{
+    width: 100%;
+}
+
+.right{
+    width: 100%;
+}
+
+.right p{
+    font-size: .7rem;
+}
+
+.right a{
+    font-size: 1rem;
+}

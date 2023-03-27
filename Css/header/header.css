@@ -53,3 +53,7 @@ header a:hover {
   color: rgb(192, 218, 241);
   transition: .1s;
 }
+#menu-mobile,
+.menu-mobile-active{
+  display: none;
+}

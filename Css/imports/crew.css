@@ -2,3 +2,5 @@
 @import url(../header/crew.css);
 @import url(../main/crew.css);
 @import url(fonts.css);
+
+@import url(../responsividade/crew-max1024px.css) screen and (max-width: 1024px);

@@ -1,0 +1,65 @@
+header{
+    justify-content: center;
+}
+
+header .img {
+    margin-left: 20px;
+    width: 50px;
+}
+
+header nav {
+    width: 100%;
+}
+header img{
+    display: none;
+}
+nav::before {
+    display: none;
+}
+
+main {
+    width: 95%;
+    margin: auto;
+    gap: 10px;
+    flex-direction: column;
+}
+
+.left{
+    margin-top: 20px;
+}
+.left img{
+    width: 75%;
+}
+
+.right{
+    width: 80%;
+    height: 350px;
+    margin-left: 0px;
+}
+
+.right h2{
+    font-size: 5rem;
+    margin: 50px auto 30px auto;
+}
+.right p{
+    width: 90%;
+    margin: 10px auto;
+    padding-bottom: 15px;
+}
+.bottom{
+    display: flex;
+    justify-content: space-around;
+    height: 60px;
+    align-items: center;
+}
+.bottom p{
+    font-size: .6rem;
+    padding: 0;
+    margin: 0 0 10px 17px;
+    width: 100px;
+    text-align: left;
+}
+.menu-active{
+    border-bottom: 3px solid white;
+}
+

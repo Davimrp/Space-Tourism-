@@ -1,3 +1,5 @@
+
+
 const botaoMenu = document.querySelector('.fa-bars');
 const menuMobile = document.querySelector('.menu-mobile-active');
 const botaoSairMenu = document.getElementById('sair-menu')
