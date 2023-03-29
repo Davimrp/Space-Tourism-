@@ -5,7 +5,8 @@
 https://user-images.githubusercontent.com/119756640/228673758-aeb2e875-d639-4002-ad83-fd9323e61066.mp4
 
 <hr>
-### 📋 Descrição 
+
+### 📋 Descrição
 Este é um projeto pessoal desenvolvido com base no desafio do Frontend Mentor. O objetivo do projeto é criar um website responsivo que apresenta informações sobre o turismo espacial e as empresas que estão investindo nessa área.
 
 <hr>
