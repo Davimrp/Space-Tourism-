@@ -13,11 +13,11 @@ Este é um projeto pessoal desenvolvido com base no desafio do Frontend Mentor. 
 
 ### ✍️ O site inclui as seguintes páginas:
 
-Página inicial com a apresentação
-Página Destination, com os planetas disponíveis
-Página Crew, com os participantes
-Página Technology, com as tecnologias utilizadas
-Página de contato para que os usuários possam obter mais informações.
+- Página inicial com a apresentação
+- Página Destination, com os planetas disponíveis
+- Página Crew, com os participantes
+- Página Technology, com as tecnologias utilizadas
+- Página de contato para que os usuários possam obter mais informações.
 
 <hr>
 
