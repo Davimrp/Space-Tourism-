@@ -41,15 +41,8 @@ i{
     animation: apareceDaDireita .2s ease-out;
 }
 
-.right .img {
-    position: static;
-    width: 80%;
-    height: 300px;
-    margin: auto;
-    overflow: hidden;
-}
-
 .left p{
-    width: 100%;
+    margin: auto;
+    width: 90%;
     font-size: .8rem;
 }

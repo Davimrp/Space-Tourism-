@@ -2,3 +2,10 @@
 @import url(../header/technology.css);
 @import url(../main/technology.css);
 @import url(fonts.css);
+
+
+@import url(../responsividade/technology-max-1024px.css) screen and (max-width: 1024px);
+
+@import url(../responsividade/technology-max-768px.css) screen and (max-width: 768px);
+
+@import url(../responsividade/technology-mobile.css) screen and (max-width: 425px);

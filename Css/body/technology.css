@@ -38,6 +38,7 @@ body::after {
     z-index: 3;
 }
 
-#menu-mobile{
+#menu-mobile,
+.menu-mobile-active{
     display: none;
 }
